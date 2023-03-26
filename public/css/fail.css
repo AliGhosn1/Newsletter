@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    vertical-align: middle;
+    background-color: lightgrey;
+    color: grey;
+    margin: 0;
+    padding-top: 40vh;
+}
+
+h1{
+    font-size: 40px;
+}
