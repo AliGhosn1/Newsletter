@@ -35,7 +35,7 @@ app.post("/", (req, res) =>{
 
     const options = {
         method: "POST",
-        auth: "ali:8e11430bdb78fe93024d7abe8edca1a0-us10"
+        auth: "amryu:8240245a13111d8b4134d6f04f26441a-us10"
     };
     
     const sendRequest = https.request(url, options, (response) =>{
@@ -62,6 +62,3 @@ app.listen(3000, () =>{
     console.log("Server started on port 3000.")
 });
 
-
-//Key= 8e11430bdb78fe93024d7abe8edca1a0-us10
-//List Id= 5be1452ac1
